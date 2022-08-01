@@ -65,3 +65,7 @@ Para recuperar los módulos es tan sencillo como ejecutar el siguiente módulo d
 Los decoradores se utilizan para colocar caracteristicas extra a la definición de la clase.
 
 Dentro del decorador el elemento `bootstrap` indica la manera en la que levanta la aplicación
+
+### Creación de componente con CLI
+Para generar un nuevo componente es tan sencillo como usar el comando:
+`ng generate component persona` ó `ng g component persona` ó `ng g c persona`

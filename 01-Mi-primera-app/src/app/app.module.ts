@@ -4,13 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PersonasComponent } from './personas/personas.component';
+import { PersonaComponent } from './persona/persona.component';
 
 /**
  * A esta sección se le conoce como decorador
  */
 @NgModule({
   declarations: [ //Aquí iran todos los componentes de la app
-    AppComponent, PersonasComponent 
+    AppComponent, PersonasComponent, PersonaComponent 
   ],
   imports: [
     BrowserModule,
