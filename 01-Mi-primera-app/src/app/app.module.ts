@@ -11,6 +11,7 @@ import { PersonaComponent } from './persona/persona.component';
  */
 @NgModule({
   declarations: [ //Aquí iran todos los componentes de la app
+    //Cuando usamos CLI se agregan de forma automática
     AppComponent, PersonasComponent, PersonaComponent 
   ],
   imports: [
