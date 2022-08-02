@@ -69,3 +69,6 @@ Dentro del decorador el elemento `bootstrap` indica la manera en la que levanta 
 ### Creación de componente con CLI
 Para generar un nuevo componente es tan sencillo como usar el comando:
 `ng generate component persona` ó `ng g component persona` ó `ng g c persona`
+
+### Información INLINE
+Se puede incluir información HTML o CSS dentro de nuestros archivos Typescript siempre y cuando la información sea pequeña, en caso contrario es necesario ponerlo en archivos separados como lo muestra por defecto la creación de componentes

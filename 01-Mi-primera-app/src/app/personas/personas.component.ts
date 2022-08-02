@@ -5,7 +5,9 @@ import { Component } from "@angular/core";
  */  
 @Component({
     selector: 'app-personas',//Nombre del componente
-    templateUrl: 'personas.component.html'
+    template: `<h1>Listado de personas </h1>
+    <app-persona></app-persona>
+    <app-persona></app-persona>`
 })
 /**
  * Definiendo y exportando clase como
